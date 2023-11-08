@@ -1,14 +1,16 @@
 {
-  "name": "projetdevops",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "",
-  "license": "ISC",
-  "devDependencies": {
-    "prettier": "3.0.3"
-  }
+    "name": "projetdevops",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "prettier": "prettier --write .",
+        "prettier:check": "prettier --check ."
+    },
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+        "prettier": "3.0.3"
+    }
 }
